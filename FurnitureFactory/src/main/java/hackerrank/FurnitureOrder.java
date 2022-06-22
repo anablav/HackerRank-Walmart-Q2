@@ -1,17 +1,21 @@
 package hackerrank;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class FurnitureOrder implements FurnitureOrderInterface {
     /**
      * TODO: Create a map of Furniture items to order quantities
      */
+    Map<Furniture, Integer> map = new HashMap<>();
 
     /**
      * Initialize a new mapping of Furniture types to order quantities.
      */
     FurnitureOrder() {
         // TODO: Complete the constructor
+
+        
     }
 
     public void addToOrder(final Furniture type, final int furnitureCount) {
